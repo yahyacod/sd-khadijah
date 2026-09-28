@@ -1,0 +1,55 @@
+# Environment variables and local credentials
+/.env
+/.env.*
+!/.env.example
+/auth.json
+/storage/*.key
+/storage/*.pem
+/storage/*.p12
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Laravel generated files and runtime data
+/bootstrap/cache/*.php
+/storage/pail
+/storage/logs/*.log
+
+# Compiled assets and public storage symlink
+/public/build/
+/public/hot
+/public/storage
+/public/fonts-manifest.dev.json
+
+# Test and development tooling
+/.phpunit.cache/
+/.phpunit.result.cache
+/.phpactor.json
+/AGENTS.md
+/CLAUDE.md
+/.ai/
+/.agents/
+/.claude/
+/.codex/
+/.continue/
+/.cursor/
+/.fleet/
+/.idea/
+/.nova/
+/.impeccable/
+/.vscode/
+/.zed/
+/_ide_helper.php
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Homestead.json
+Homestead.yaml
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
